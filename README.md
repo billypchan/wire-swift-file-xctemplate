@@ -1,6 +1,11 @@
 # wire-swift-file-xctemplate
 a Swift file template for Wire's new swift file creation
 
+![new file][newFile]
+
+[newFile]: https://github.com/billypchan/wire-swift-file-xctemplate/raw/master/newFile.png "New File"
+
+
 # How to use:
 
 - git clone https://github.com/billypchan/wire-swift-file-xctemplate.git
