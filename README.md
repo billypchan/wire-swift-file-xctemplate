@@ -18,3 +18,9 @@ $ cp -r ./wire-swift-file-xctemplate/Source  ~/Library/Developer/Xcode/Templates
 
 # Features:
 - WIre boilplate with current year
+
+# Reference:
+
+Veriables of Xcode template:
+
+http://www.bobmccune.com/2012/03/04/creating-custom-xcode-4-file-templates/
