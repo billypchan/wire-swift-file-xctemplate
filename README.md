@@ -17,7 +17,7 @@ $ cp -r ./wire-swift-file-xctemplate/Source  ~/Library/Developer/Xcode/Templates
 - go to Xcode and press "Cmd + N" to create a new "Wire Swift File"
 
 # Features:
-- WIre boilplate with current year
+- Wire boilplate with current year
 
 # Reference:
 
