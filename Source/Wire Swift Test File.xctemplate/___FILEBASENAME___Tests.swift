@@ -1,6 +1,7 @@
 ___FILEHEADER___
 
 import XCTest
+@testable import Wire
 
 final class ___FILEBASENAMEASIDENTIFIER___Tests: XCTestCase {
     
@@ -17,6 +18,10 @@ final class ___FILEBASENAMEASIDENTIFIER___Tests: XCTestCase {
     }
     
     func testExample(){
-        
+        // GIVEN
+
+        // WHEN
+
+        // THEN
     }
 }
