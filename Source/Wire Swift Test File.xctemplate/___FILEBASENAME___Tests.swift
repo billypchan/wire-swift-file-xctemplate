@@ -13,15 +13,25 @@ final class ___FILEBASENAMEASIDENTIFIER___Tests: XCTestCase {
     }
     
     override func tearDown() {
-        super.tearDown()        
         sut = nil
+        super.tearDown()
     }
-    
+
+
+    ///TODO: template for
+    //fileprivate func checkError(
+//    file: StaticString = #file,
+//    line: UInt = #line) {
+//    XCTAssertEqual(expectedError, mockViewController.lastError, file: file, line: line)
+
+//    }
+
     func testExample(){
         // GIVEN
 
         // WHEN
 
         // THEN
+        checkError()
     }
 }
