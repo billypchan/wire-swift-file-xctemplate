@@ -27,3 +27,4 @@ Veriables of Xcode template:
 
 http://www.bobmccune.com/2012/03/04/creating-custom-xcode-4-file-templates/
 http://jeanetienne.net/2017/08/27/xcode-template.html
+http://samwize.com/2017/05/12/xcode-8-file-templates/
