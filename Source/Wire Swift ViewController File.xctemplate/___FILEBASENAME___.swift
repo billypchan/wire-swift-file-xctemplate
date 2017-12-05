@@ -27,9 +27,24 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         }
     }
 
+}
+
+// MARK: - Status Bar / Supported Orientations
+
+extension ___FILEBASENAMEASIDENTIFIER___ {
+
+    override var shouldAutorotate: Bool {
+        ///TODO: if this should auto rotate, return true
+        return false
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIViewController.wr_supportedInterfaceOrientations()
+    }
+
     override var prefersStatusBarHidden: Bool {
         ///TODO: if this VC does not show status bar, return false
         return true
     }
-}
 
+}
