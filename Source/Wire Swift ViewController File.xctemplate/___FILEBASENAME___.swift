@@ -34,8 +34,13 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 extension ___FILEBASENAMEASIDENTIFIER___ {
 
     override var shouldAutorotate: Bool {
-        ///TODO: if this should auto rotate, return true
-        return false
+        switch (self.traitCollection.horizontalSizeClass) {
+        case .compact:
+            ///TODO: if this should auto rotate, return true
+            return false
+        default:
+            return true
+        }
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
@@ -46,5 +51,4 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
         ///TODO: if this VC does not show status bar, return false
         return true
     }
-
 }
