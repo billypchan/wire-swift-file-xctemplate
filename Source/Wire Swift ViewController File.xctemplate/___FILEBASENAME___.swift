@@ -15,16 +15,27 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         createConstraints()
     }
 
-    public override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    private func createConstraints() {
+        constrain(view) { view in
+            ///TODO: create view constraints
+        }
+    }
+
+}
+
+// MARK: - iPad size class switching
+
+extension ___FILEBASENAMEASIDENTIFIER___ {
+
+    open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
 
         ///TODO: change the UI config, constraints, font size and etc here if this VC has different UI design pattern on iPad compact/regular mode
     }
 
-    private func createConstraints() {
-        constrain(view) { view in
-            ///TODO: create view constraints
-        }
+    open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        ///TODO: handle UI update related to orientation change here
     }
 
 }
