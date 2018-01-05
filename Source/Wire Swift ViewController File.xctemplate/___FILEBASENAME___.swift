@@ -33,9 +33,10 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
         ///TODO: change the UI config, constraints, font size and etc here if this VC has different UI design pattern on iPad compact/regular mode
     }
 
+    ///Notice: this method is called if this VC is a root VC. it is not called after iPad orientation changes
     open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
-        ///TODO: handle UI update related to orientation change here
+        ///TODO: handle UI update related to view size changes
     }
 
 }
@@ -45,12 +46,19 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 extension ___FILEBASENAMEASIDENTIFIER___ {
 
     override var shouldAutorotate: Bool {
+        switch UIDevice.current.userInterfaceIdiom {
+        case .pad:
+
         switch (self.traitCollection.horizontalSizeClass) {
         case .compact:
             ///TODO: if this should auto rotate, return true
             return false
         default:
             return true
+        }
+        default:
+            ///TODO: if this should auto rotate, return true
+            return false
         }
     }
 
