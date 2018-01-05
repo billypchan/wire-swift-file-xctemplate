@@ -9,6 +9,9 @@ a Swift file template for Wire's new swift file creation
 
 
 # How to use:
+
+## install
+
 ```bash
 $ git clone https://github.com/billypchan/wire-swift-file-xctemplate.git
 $ mkdir -p ~/Library/Developer/Xcode/Templates
@@ -17,9 +20,17 @@ $ cp ./wire-swift-file-xctemplate/IDETemplateMacros.plist  ~/Library/Developer/X
 ```
 - go to Xcode and press "Cmd + N" to create a new "Wire Swift File"
 
+## update
+go to wire-swift-file-xctemplate folder and run:
+
+````
+$ bash update.sh
+````
+
 # Features:
-- Wire boilplate with current year
+- Wire empty Swift file template
 - Wire test file template
+- Wire ViewController template
 
 # Reference:
 
