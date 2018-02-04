@@ -17,7 +17,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
     private func createConstraints() {
         constrain(view) { view in
-            ///TODO: create view constraints
+            <#T##create view constraints#>
         }
     }
 
@@ -31,12 +31,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
         super.traitCollectionDidChange(previousTraitCollection)
 
         ///TODO: change the UI config, constraints, font size and etc here if this VC has different UI design pattern on iPad compact/regular mode
-    }
-
-    ///Notice: this method is called if this VC is a root VC. it is not called after iPad orientation changes
-    open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-        ///TODO: handle UI update related to view size changes
+        <#T##Code Here#>
     }
 
 }
