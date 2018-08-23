@@ -34,6 +34,13 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
         <#T##Code Here#>
     }
 
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+
+        ///TODO: change the UI config, constraints, font size and etc here if this VC has different UI design pattern on iPad landscape/portrait 
+        <#T##Code Here#>
+    }
+
 }
 
 // MARK: - Status Bar / Supported Orientations

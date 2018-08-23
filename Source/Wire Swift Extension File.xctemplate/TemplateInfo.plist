@@ -7,9 +7,9 @@
 	<key>Description</key>
 	<string>Swift extension</string>
 	<key>Summary</key>
-	<string>Create a Swift extension file.</string>
+	<string>An Swift extension template.</string>
 	<key>SortOrder</key>
-	<string>0</string>
+	<string>1</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -17,6 +17,6 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.swift</string>
+	<string>___FILEBASENAME___+Extension.swift</string>
 </dict>
 </plist>
