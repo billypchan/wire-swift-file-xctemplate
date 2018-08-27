@@ -11,7 +11,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Tests: ZMSnapshotTestCase {
         super.setUp()
         sut = ___FILEBASENAMEASIDENTIFIER___()
 
-        // REMOVE this after snapshot is created
+        /// TODO: remove this after snapshot is created
         recordMode = true
     }
     
@@ -20,7 +20,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Tests: ZMSnapshotTestCase {
         super.tearDown()
     }
 
-    func testExample(){
+    func testForInitState(){
         // GIVEN
 
         // WHEN

@@ -25,5 +25,7 @@
       <string>MyModel</string>
     </dict>
   </array>
+  <key>SortOrder</key>
+  <string>1</string>
 </dict>
 </plist>
